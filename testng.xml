@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="接口自动化测试" verbose="1" preserve-order="true" parallel="false">
+	<test name="adserver">
+		<parameter name="excelPath" value="case/adserver-data.xls"></parameter>
+
+		<classes>
+			<class name="test.java.mg.cases.SspServerBid">
+				<methods>							
+					<include name="testBid"></include>
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<listeners>	
+		<listener class-name="main.java.mg.listeners.TestngListener"></listener>
+
+	</listeners>
+</suite> 
