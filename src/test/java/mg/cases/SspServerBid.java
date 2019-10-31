@@ -1,6 +1,6 @@
-package test.java.mg.cases;
+package mg.cases;
 
-import main.java.mg.listeners.TestngListener;
+import mg.listeners.TestngListener;
 import main.java.mg.utils.HttpUtil;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;

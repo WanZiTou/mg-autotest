@@ -4,7 +4,7 @@
 		<parameter name="excelPath" value="case/adserver-data.xls"></parameter>
 
 		<classes>
-			<class name="test.java.mg.cases.SspServerBid">
+			<class name="mg.cases.SspServerBid">
 				<methods>							
 					<include name="testBid"></include>
 				</methods>
@@ -15,7 +15,7 @@
 	</test>
 
 	<listeners>	
-		<listener class-name="main.java.mg.listeners.TestngListener"></listener>
+		<listener class-name="mg.listeners.TestngListener"></listener>
 
 	</listeners>
 </suite> 

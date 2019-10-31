@@ -1,4 +1,4 @@
-package main.java.mg.listeners;
+package mg.listeners;
 
 import io.qameta.allure.Attachment;
 import org.testng.ITestContext;
